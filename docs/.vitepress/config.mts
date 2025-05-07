@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/Blog/",
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+  title: "Man",
+  description: "Recoding live",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
