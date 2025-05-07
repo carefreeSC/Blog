@@ -1,6 +1,6 @@
 // .vitepress/theme/index.ts
 import DefaultTheme from 'vitepress/theme'
-import home from './components/Home.vue' // 正确相对路径
+import home from './components/home.vue' // 正确相对路径
 
 export default {
   extends: DefaultTheme,
