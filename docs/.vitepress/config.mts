@@ -1,27 +1,20 @@
 import { defineConfig } from 'vitepress'
-
+import { nav } from './relaConf'
+import { sidebar } from './relaConf'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/Blog/",
-  title: "Man",
+  title: "逍遥竹的博客",
   description: "Recoding live",
+  srcDir: "src",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    logo: '/image.png',
+    nav: nav,
+    search: {
+      provider: 'local'
+    },
+    sidebar: sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
