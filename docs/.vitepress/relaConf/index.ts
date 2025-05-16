@@ -18,7 +18,15 @@ export const nav: DefaultTheme.NavItem[] = [
 
                 text: '所思·所想·所游',
                 link: '/travelNotes/01'
+            },
+
+
+            {
+                text: '01',
+                link: '/tech/01'
             }
+
+
         ]
     },
     {
@@ -74,5 +82,16 @@ export const sidebar: DefaultTheme.Sidebar = {
                 },
             ]
         },
+    ],
+    '/tech/': [
+        {
+            text: '技术记错本',
+            items: [
+                {
+                    text: '01',
+                    link: '/tech/01'
+                }
+            ]
+        }
     ]
 }
