@@ -22,7 +22,7 @@ export const nav: DefaultTheme.NavItem[] = [
 
 
             {
-                text: '01',
+                text: '前端小问题本',
                 link: '/tech/01'
             }
 
@@ -39,7 +39,7 @@ export const nav: DefaultTheme.NavItem[] = [
             {
 
                 text: 'CSDN',
-                link: 'https://juejin.cn/user/3131845139247960/posts'
+                link: 'https://blog.csdn.net/weixin_64463374?spm=1000.2115.3001.5343'
             },
             {
 
@@ -88,8 +88,16 @@ export const sidebar: DefaultTheme.Sidebar = {
             text: '技术记错本',
             items: [
                 {
-                    text: '01',
+                    text: '1.文本显示间隙空白',
                     link: '/tech/01'
+                },
+                {
+                    text: '2.import导入问题',
+                    link: '/tech/02'
+                },
+                {
+                    text: '3.工厂热力图',
+                    link: '/tech/03'
                 }
             ]
         }
