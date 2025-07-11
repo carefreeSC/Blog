@@ -41,11 +41,10 @@ export const nav: DefaultTheme.NavItem[] = [
                 text: 'CSDN',
                 link: 'https://blog.csdn.net/weixin_64463374?spm=1000.2115.3001.5343'
             },
-            {
-
-                text: '个人简历',
-                link: 'https://pzfqk98jn1.feishu.cn/wiki/space/7193915595975491587?ccm_open_type=lark_wiki_spaceLink'
-            }
+            // {
+            //     text: '个人简历',
+            //     link: 'https://pzfqk98jn1.feishu.cn/wiki/space/7193915595975491587?ccm_open_type=lark_wiki_spaceLink'
+            // }
         ]
     }
 ];
