@@ -1,0 +1,7 @@
+/* .vitepress/theme/style.css */
+
+/* WebKit 浏览器滚动条样式 */
+.VPSidebar::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}

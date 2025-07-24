@@ -52,19 +52,15 @@ export const sidebar: DefaultTheme.Sidebar = {
     // /column/Algothm/表示对这个文件夹下的所有md文件做侧边栏配置
     '/': [
         {
-            text: 'Examples',
+            text: '个人简历',
             items: [
-                { text: 'Markdown Examples', link: '/markdown-examples' },
-                { text: 'Runtime API Examples', link: '/exp' },
-                { text: 'VitePress Home Design', link: '/col/01' }
+
             ]
         },
         {
-            text: 'Eples',
+            text: '欢迎光临 ! ! !',
             items: [
-                { text: 'Mn Examples', link: '/markdown-examples' },
-                { text: 'Runtimples', link: '/exp' },
-                { text: 'VitePrsign', link: '/col/01' }
+
             ]
         },
     ],
@@ -84,6 +80,9 @@ export const sidebar: DefaultTheme.Sidebar = {
     ],
     '/tech/': [
         {
+            text: '持续更新/搬迁中 · · ·',
+        },
+        {
             text: '技术记错本',
             items: [
                 {
@@ -97,8 +96,59 @@ export const sidebar: DefaultTheme.Sidebar = {
                 {
                     text: '3.工厂热力图',
                     link: '/tech/03'
+                },
+
+            ]
+        },
+        {
+            text: 'NodeJs',
+            items: [
+                {
+                    text: '1.简介',
+                    link: '/tech/node/01'
+                },
+            ]
+        },
+        {
+            text: '可视化平台构建历程',
+            items: [
+                {
+                    text: '1.基于Express + 原生HTML 构建的可视化平台 (一)',
+                    link: '/tech/web/01'
+                },
+                {
+                    text: '1.基于Express + 原生HTML 构建的可视化平台 (一)',
+                    link: '/tech/web/02'
                 }
             ]
-        }
+        },
+        {
+            text: 'VitePress 个人博客搭建历程',
+            items: [
+                {
+                    text: '1.前景提示',
+                    link: '/tech/11'
+                },
+                {
+                    text: '2.自定义页面组件',
+                    link: '/tech/05'
+                }, {
+                    text: '3.markdown常用语法',
+                    link: '/tech/06'
+                }, {
+                    text: '4.导航栏 nav 相关配置',
+                    link: '/tech/07'
+                }, {
+                    text: '5.发布文章',
+                    link: '/tech/08'
+                }, {
+                    text: '6.自定义VUE组件',
+                    link: '/tech/09'
+                }, {
+                    text: '7.侧边栏自动生成',
+                    link: '/tech/10'
+                }
+            ]
+        },
     ]
 }

@@ -14,7 +14,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 技术文档
-      link: /api-examples
+      link: /tech/01
     - theme: alt
       text: 进入生活
       link: /travelNotes/01

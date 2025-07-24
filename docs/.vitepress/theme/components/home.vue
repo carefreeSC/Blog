@@ -1,6 +1,7 @@
 <template>
     <div class="home-wrapper">
-      <div v-for="item in list" :key="item" class="home-item">{{ item }}</div>
+      <!-- <div v-for="item in list" :key="item" class="home-item">{{ item }}</div> -->
+      🌿 纸上得来终觉浅，绝知此事要躬行。 愿我们都能在代码与文字的世界里，找到自己的热爱。
     </div>
   </template>
   
@@ -13,10 +14,9 @@
       
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 80px;
   }
   .home-item {
-      
     vertical-align: middle;
     margin: 4px 4px 10px;
     padding: 4px 8px;
