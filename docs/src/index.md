@@ -14,10 +14,10 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: 技术文档
-      link: /tech/01
+      link: /tech/代码问题本/01
     - theme: alt
       text: 进入生活
-      link: /travelNotes/01
+      link: /旅游笔记/01
 features:
   - title: WEB前端
     icon: 😎

@@ -1,0 +1,146 @@
+{
+  "nav": [
+    {
+      "text": "Jquery随记",
+      "link": "/Jquery随记/"
+    },
+    {
+      "text": "public",
+      "link": "/public/"
+    },
+    {
+      "text": "tech",
+      "link": "/tech/"
+    },
+    {
+      "text": "博客",
+      "link": "/博客/"
+    },
+    {
+      "text": "旅游笔记",
+      "link": "/旅游笔记/"
+    }
+  ],
+  "sidebars": {
+    "/Jquery随记/": [
+      {
+        "text": "01",
+        "link": "/Jquery随记/01"
+      }
+    ],
+    "/tech/": [
+      {
+        "text": "博客搭建教程",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "关于vitePress的相关设计",
+            "link": "/tech/博客搭建教程/05"
+          },
+          {
+            "text": "markdown常用语法",
+            "link": "/tech/博客搭建教程/06"
+          },
+          {
+            "text": "导航栏 nav 相关配置",
+            "link": "/tech/博客搭建教程/07"
+          },
+          {
+            "text": "发布文章",
+            "link": "/tech/博客搭建教程/08"
+          },
+          {
+            "text": "自定义组件",
+            "link": "/tech/博客搭建教程/09"
+          },
+          {
+            "text": "sidebar 侧边栏自动生成",
+            "link": "/tech/博客搭建教程/10"
+          },
+          {
+            "text": "温馨提示",
+            "link": "/tech/博客搭建教程/11"
+          }
+        ]
+      },
+      {
+        "text": "代码问题本",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "关于文本显示 莫名空白",
+            "link": "/tech/代码问题本/01"
+          },
+          {
+            "text": "vue3 接口数据处理",
+            "link": "/tech/代码问题本/02"
+          },
+          {
+            "text": "热力图 实现",
+            "link": "/tech/代码问题本/03"
+          }
+        ]
+      },
+      {
+        "text": "可视化平台",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "技术背景",
+            "link": "/tech/可视化平台/01"
+          },
+          {
+            "text": "express 托管前端静态文件",
+            "link": "/tech/可视化平台/02"
+          }
+        ]
+      },
+      {
+        "text": "node",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "NODE 简介",
+            "link": "/tech/node/01"
+          }
+        ]
+      }
+    ],
+    "/博客/": [
+      {
+        "text": "markdown常用语法",
+        "link": "/博客/06"
+      },
+      {
+        "text": "导航栏 nav 相关配置",
+        "link": "/博客/07"
+      },
+      {
+        "text": "发布文章",
+        "link": "/博客/08"
+      },
+      {
+        "text": "自定义组件",
+        "link": "/博客/09"
+      },
+      {
+        "text": "sidebar 侧边栏自动生成",
+        "link": "/博客/10"
+      },
+      {
+        "text": "温馨提示",
+        "link": "/博客/11"
+      },
+      {
+        "text": "关于vitePress的相关设计",
+        "link": "/博客/关于vitePress的相关设计"
+      }
+    ],
+    "/旅游笔记/": [
+      {
+        "text": "travel notes",
+        "link": "/旅游笔记/01"
+      }
+    ]
+  }
+}
