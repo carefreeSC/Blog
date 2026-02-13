@@ -4,8 +4,12 @@
     "vitepress": "^1.6.3"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --port 5428",
     "docs:build": "vitepress build docs",
+    "custom:watch": "nodemon --watch docs --ext md --exec \"node docs/generate-sidebar.js\"",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.11"
   }
 }

@@ -104,6 +104,28 @@
             "link": "/tech/node/01"
           }
         ]
+      },
+      {
+        "text": "tine engine低代码引擎",
+        "collapsible": true,
+        "items": [
+          {
+            "text": "项目介绍",
+            "link": "/tech/tine-engine低代码引擎/01"
+          },
+          {
+            "text": "项目启动",
+            "link": "/tech/tine-engine低代码引擎/02"
+          },
+          {
+            "text": "插件开发",
+            "link": "/tech/tine-engine低代码引擎/03"
+          },
+          {
+            "text": "开发评估",
+            "link": "/tech/tine-engine低代码引擎/04"
+          }
+        ]
       }
     ],
     "/博客/": [
